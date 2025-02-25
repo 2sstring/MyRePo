@@ -72,7 +72,8 @@ def modulus(a, b):
 # 테스트 코드
 if __name__ == "__main__":
     # 테스트 값
-    x, y = 10, 5
+    x = 10
+    y = 0
 
     # 연산 및 출력
     print(f"Add: {add(x, y)}")  # 10 + 5 = 15
