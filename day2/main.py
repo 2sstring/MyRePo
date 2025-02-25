@@ -20,6 +20,12 @@ def divide(x, y):
         return "Error: Cannot divide by zero"
     return x / y
 
+def power(a, b):
+    return a ** b
+
+def mod(a, b):
+    return a % b
+
 
 # 테스트 코드
 if __name__ == "__main__":
@@ -31,6 +37,8 @@ if __name__ == "__main__":
     print("Subtract:", subtract(a, b))  # 10 - 5 = 5
     print("Multiply:", multiply(a, b))  # 10 * 5 = 50
     print("Divide:", divide(a, b))  # 10 / 5 = 2.0
+    print("f*{X} ** f*{y} = ", power(a, b) )
+    print("f*{X} % f*{y} = ", mod(a, b))
 
     # Division by zero 테스트
     b = 0
